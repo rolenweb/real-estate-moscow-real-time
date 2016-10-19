@@ -37,7 +37,7 @@
 					if ( current_user_can( 'edit_theme_options' ) ) { ?>
 						<div class="no-menu-msg"><a href="<?php echo get_site_url() .'/wp-admin/nav-menus.php'; ?>"><?php _e('Add Menu', 'realistic'); ?></a></div>
 					<?php } else { ?>
-						<div class="no-menu-msg"><?php _e('Go to Appearance => Menus and assign a Menu to this location.', 'realistic'); ?></div>
+						
 					<?php }
 				} ?>
 			</nav>
